@@ -30,5 +30,15 @@
    border-radius: 16% !important;
     height: 350px !important;
     }
+    .parent-btn{
+    padding: 40px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 100px;
+    height: 10px;
+
+}
     
 }
