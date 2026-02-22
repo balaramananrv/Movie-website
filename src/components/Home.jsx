@@ -37,7 +37,7 @@ export default function Home() {
   return (
     
     <div className='show'>
-        <img src={Arrmovies[count]} alt="" />
+        <img src={Arrmovies[count]} alt="" className='images' />
         <div className='parent-btn'>
             <button className='btna'onClick={pre} ><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#f5390eff"><path d="M400-80 0-480l400-400 56 57-343 343 343 343-56 57Z"/></svg></button>
             <button className='btna' onClick={next}><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#f5390eff"><path d="m304-82-56-57 343-343-343-343 56-57 400 400L304-82Z"/></svg></button>

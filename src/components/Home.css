@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
 }
-.show img{
+.show .images{
     width: 100%;
     height: 750px;
     padding: 40px;
@@ -22,4 +22,13 @@
     top: 300px;
 
 
+}
+
+
+@media (max-width:576px) {
+    .show .images{
+   border-radius: 16% !important;
+    height: 350px !important;
+    }
+    
 }
